@@ -1,0 +1,233 @@
+.body {
+  font-family: Roboto, Arial;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(221, 218, 218);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}
+
+.left-section {
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.middle-section {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  width: 530px;
+}
+
+.right-section {
+  display: inline-block;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.hamberger {
+  padding-left: 28px;
+}
+
+.youtube-logo {
+  cursor: pointer;
+}
+
+.search-box {
+  font-size: 15px;
+  font-family: Arial;
+  height: 30px;
+  width: 80%;
+  border-radius: 2px;
+  border: 1px solid rgb(221, 218, 218);
+  justify-content: center;
+}
+
+.search-button {
+  background-color: rgb(244, 244, 244);
+  height: 34px;
+  border-radius: 2px;
+  border: 1px solid rgb(221, 218, 218);
+  border-left: none;
+  width: 50px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.search-icon {
+  height: 22px;
+  cursor: pointer;
+}
+
+.upload {
+  cursor: pointer;
+}
+
+.youtube-apps {
+  cursor: pointer;
+}
+
+.notifications {
+  cursor: pointer;
+}
+
+.user-dp {
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.microphone {
+  background-color: rgb(244, 244, 244);
+  border-radius: 13px;
+  margin-left: 15px;
+  margin-top: 4px;
+  vertical-align: center;
+  cursor: pointer;
+}
+
+.home {
+  height: 40px;
+  padding: 30px;
+}
+
+.explore {
+  height: 40px;
+  padding: 30px;
+}
+
+.library {
+  height: 40px;
+  padding: 30px;
+}
+
+.subscriptions {
+  height: 40px;
+  padding: 30px;
+
+}
+
+.youtube-music {
+  height: 40px;
+  padding: 30px;
+}
+
+.home:hover {
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+}
+
+.explore:hover {
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+}
+
+.subscriptions:hover {
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+}
+
+.library:hover {
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+}
+
+.youtube-music:hover {
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+}
+
+.side-content ul {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  width: 100px;
+  padding-top: 0;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.side-content {
+  display: grid;
+  width: 100px;
+  background-color: rgb(234, 233, 233);
+  position: fixed;
+  left: 0;
+}
+
+.videos {
+  display: inline-block;
+  padding: 30px;
+  width: 350px;
+  height: 290px;
+}
+
+.upper-part {
+  width: 350px;
+  display: inline-block;
+}
+
+.lower-part {
+  display: inline-block;
+  width: 350px;
+  height: 80px;
+}
+
+.dp {
+  border-radius: 20px;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+}
+
+.lower-left-part {
+  padding: 0px;
+  width: 40px;
+  height: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lower-right-part {
+  position: relative;
+  width: 280px;
+  display: inline-block;
+  font-family: Roboto, Arial;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 9px;
+}
+
+.video-title {
+  padding: 0;
+  margin: 0;
+}
+
+.channel-name {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  margin-bottom: 0;
+  color: rgb(154, 154, 154);
+  display: inline-block;
+}
+
+.video-stats {
+  font-family: Roboto, Arial;
+  margin: 0;
+  font-size: 12px;
+  color: rgb(154, 154, 154);
+}
