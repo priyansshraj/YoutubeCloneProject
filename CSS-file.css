@@ -1,5 +1,10 @@
-.body {
-  font-family: Roboto, Arial;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', Arial;
 }
 
 .header {
@@ -41,6 +46,7 @@
 
 .hamberger {
   padding-left: 28px;
+  padding-right: 5px;
 }
 
 .youtube-logo {
@@ -52,6 +58,8 @@
   font-family: Arial;
   height: 30px;
   width: 80%;
+  margin-left: 5px;
+  padding-left: 15px;
   border-radius: 2px;
   border: 1px solid rgb(221, 218, 218);
   justify-content: center;
@@ -59,7 +67,7 @@
 
 .search-button {
   background-color: rgb(244, 244, 244);
-  height: 34px;
+  height: 32px;
   border-radius: 2px;
   border: 1px solid rgb(221, 218, 218);
   border-left: none;
@@ -118,7 +126,6 @@
 .subscriptions {
   height: 40px;
   padding: 30px;
-
 }
 
 .youtube-music {
@@ -171,20 +178,24 @@
 
 .videos {
   display: inline-block;
-  padding: 30px;
+  padding: 15px;
   width: 350px;
   height: 290px;
 }
 
 .upper-part {
   width: 350px;
+  height: 200px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .lower-part {
   display: inline-block;
   width: 350px;
   height: 80px;
+  margin-top: -15px;
+  cursor: pointer;
 }
 
 .dp {
@@ -230,4 +241,30 @@
   margin: 0;
   font-size: 12px;
   color: rgb(154, 154, 154);
+}
+
+.time-duration {
+  color: white;
+  background-color: black;
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  padding: 2px;
+  border-radius: 2px;
+  position: relative;
+  left: 315px;
+  top: -30px;
+}
+
+@media only screen and (max-width: 450px) {
+  /* For mobile phones: */
+  .side-content {
+    display: none !important;
+  }
+  body{
+    padding-left: 0 !important;
+  }
+
+  .videos{
+    width: 90%;
+  }
 }
